@@ -7,7 +7,7 @@
 $ python image_rename.py --input {images folder path} --output {images folder path}
 ```
 (cw input folder = /home/ubuntu/cw/data/nuScenes/CAM_BACK_SPLIT)  
-(cw output folder = /home/ubuntu/cw/data/nuScenes/rename)  
+(cw output folder = /home/ubuntu/cw/data/nuScenes/rename)   
 
 - Random Split for Query/Reference Images  
   - 실행 파일 **image_split_random.py**
