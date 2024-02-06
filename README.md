@@ -58,7 +58,7 @@ $ python histo_ml_svc.py --query {query database file path} --ref {ref database 
 ```
 
 - Integrated Algorithm (Utilizing Machine Learning)  
-  - 실행 파일 **weight_ml_svc.py**  
+  - 실행 파일 **weight_ml_svc.py**    
 (cw NetVLAD query database file = '/home/ubuntu/cw/Hierarchical-Localization/outputs/sacre_coeur/NetVlad/CAM-BACK-1000-global-feats-netvlad.h5')   
 (cw NetVLAD ref database_file = '/home/ubuntu/cw/Hierarchical-Localization/outputs/sacre_coeur/NetVlad/CAM-BACK-1000-query-feats-netvlad.h5')   
 (cw Histogram query database file = "/home/ubuntu/cw/Hierarchical-Localization/datasets/outputs/DB/bag_query.db")   
