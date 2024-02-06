@@ -19,15 +19,20 @@ $ python image_split_random.py --input {source images folder path} --query {quer
 (cw reference output folder = "/home/ubuntu/cw/Hierarchical-Localization/datasets/sacre_coeur/bag_query")  
 
 ## STEP 2: Execute NetVLAD
+- 가상환경 활성화
+``` shell
+$ conda activate Hloc
+```  
+> Python >=3.7 and PyTorch >=1.1
 - Extract Image Features  
   - 실행 파일 **extract_netvlad_features.py**
 
 ## STEP 3: Execute Panoptic Histogram
 - 가상환경 활성화
 ``` shell
-$ conda activate Hloc
-```  
-  Python >=3.7 and PyTorch >=1.1
+$ conda activate panFCN
+```
+> Python ≥ 3.7 and PyTorch ≥ 1.8  
 - Extract Query Image Features  
   - 실행 파일 **histogram_query_oneformer.py**  
   - (Open Dataset) 실행 파일 **histogram_query_oneformer_open.py**
