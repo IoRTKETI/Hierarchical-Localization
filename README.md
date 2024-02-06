@@ -11,6 +11,12 @@ $ python image_rename.py --input {images folder path} --output {images folder pa
 
 - Random Split for Query/Reference Images  
   - 실행 파일 **image_split_random.py**
+``` shell
+$ python image_split_random.py --input {source images folder path} --query {query images folder path} --ref {ref images folder path}
+```
+(cw input folder = "/home/ubuntu/cw/bag_to_image")  
+(cw query output folder = "/home/ubuntu/cw/Hierarchical-Localization/datasets/sacre_coeur/bag_query")  
+(cw reference output folder = "/home/ubuntu/cw/Hierarchical-Localization/datasets/sacre_coeur/bag_query")  
 
 ## STEP 2: Execute NetVLAD
 - Extract Image Features  
