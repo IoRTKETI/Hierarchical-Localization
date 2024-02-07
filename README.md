@@ -23,7 +23,7 @@ $ python image_split_random.py --input {source images folder path} --query {quer
 ``` shell
 $ conda activate Hloc
 ```  
-> Python >=3.7 and PyTorch >=1.1
+> Python >=3.7, PyTorch ==1.10.1, Torchvision ==0.11.2+cu111, Torchaudio ==0.10.1
 - Extract Image Features  
   - 실행 파일 **extract_netvlad_features.py**
 
