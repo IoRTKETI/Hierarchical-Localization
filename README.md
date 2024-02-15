@@ -1,5 +1,15 @@
 # Hierarchical-Localization
 
+## 가상환경 구축
+hloc requires Python >=3.7 and PyTorch >=1.1.
+``` shell
+conda create -n Hloc  
+conda activate Hloc  
+pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html  
+git clone --recursive https://github.com/cvg/Hierarchical-Localization/  
+cd Hierarchical-Localization/  
+python -m pip install -e .  
+```
 ## STEP 1: Image Preprocessing  
 - Rename File  
   - 실행 파일 **image_rename.py**
